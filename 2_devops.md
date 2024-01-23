@@ -11,3 +11,37 @@ Although, the software quality was improved using [SDLC](https://github.com/gul-
 - The operations then marked this code as faulty, and used to forward this feedback to the developer.
 - This led to a lot of back and forth between the developer and the operations team, hence impacted efficiency.
 - This problem was solved using Devops!
+
+# What is DevOps?
+
+Devops is a software development methodology which improves the collaboration between developers and operations team using various automation tools. These automation tools are implemented using various stages which are a part of the Devops Lifecycle.
+
+<br>
+
+![devops](images/devops.png)
+
+
+# How DevOps Works?
+
+Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams are merged into a single team where the engineers work across the entire application lifecycle, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
+
+DevOps teams use tools to automate and accelerate processes, which helps to increase reliability. A DevOps toolchain helps teams tackle important DevOps fundamentals including continuous integration, continuous delivery, automation, and collaboration.
+
+# The DevOps lifecycle
+
+The DevOps Lifecycle divides the SDLC lifecycle into the following stages:
+
+![do_sdlc](images/do_lifecycle.png)
+
+![](images/How-DeveOps-Works.png)
+
+
+
+
+| Stage                 | Description                                                                                                                                                                                                                                                   |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Continuous Development** | Involves committing code to version control tools **`(e.g., Git, SVN)`** for version management. Utilizes build tools **`(e.g., Ant, Maven, Gradle)`** to package code into an executable file, ready for testing by Quality Assurance (QA) teams.                                   |
+| **Continuous Integration**  | A critical point in the DevOps lifecycle, this stage focuses on integrating different stages of the process. It is key to automating the entire DevOps process, ensuring seamless collaboration and synchronization.                                                  |
+| **Continuous Deployment**  | Code is built, the application or environment is containerized, and the result is pushed to the desired server. Key processes include Configuration Management, Virtualization, and Containerization, enabling efficient deployment.                                |
+| **Continuous Testing**     | Involves automated testing of applications pushed by developers. If errors occur, the integration tool sends a message notifying developers. Successful tests trigger a message to the Integration tool, pushing the build to the production server.              |
+| **Continuous Monitoring**   | This stage continuously monitors deployed applications for bugs or crashes. Additionally, it can collect user feedback. The gathered data is sent to developers to make improvements to the application.  |
