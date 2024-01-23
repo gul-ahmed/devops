@@ -120,5 +120,19 @@ The Software Development Life Cycle (SDLC) model is a structured and systematic 
 **5. Documentation Challenges:**
  Agile prioritizes working software over comprehensive documentation, which may be a challenge in environments with strict documentation requirements.
 
-  
+# WATERFALL VS AGILE
 
+| Feature                 | Waterfall Model                      | Agile Model                          |
+|-------------------------|--------------------------------------|--------------------------------------|
+| **Development Process** | Linear and Sequential                | Iterative and Incremental            |
+| **Flexibility**          | Low                                  | High                                 |
+| **Feedback**            | Limited                              | Continuous                           |
+| **Delivery Time**       | Longer, at the end of the project    | Incremental, faster delivery cycles |
+| **Changes**             | Difficult to incorporate changes    | Welcomes changes throughout         |
+| **Client Involvement**  | Limited until the end of the project | Continuous client collaboration     |
+| **Risk Management**     | Identified at the beginning          | Ongoing, managed throughout         |
+| **Testing**             | At the end of the development cycle  | Continuous testing                   |
+| **Documentation**       | Extensive                            | Just-in-time documentation          |
+| **Team Collaboration**  | Limited collaboration                | Collaborative, cross-functional teams|
+| **Visibility**          | Progress is visible at the end       | Regular and visible progress        |
+| **Adaptability**        | Low adaptability to changes          | Embraces changes and adapts quickly |
