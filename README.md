@@ -24,7 +24,7 @@
 
 The Software Development Life Cycle (SDLC) model is a structured and systematic process used by software developers to plan, design, build, test, deploy, and maintain software systems. It defines the stages and activities involved in the development process, ensuring a methodical approach to creating and managing software applications.
 
-**`Waterfall model`**
+## Waterfall model
 
 - The waterfall model is the earliest and the simplest of all the SDLC methodologies. 
 - The whole software development process is separated into phases, each phase beginning only when the previous one is completed.
@@ -33,7 +33,7 @@ The Software Development Life Cycle (SDLC) model is a structured and systematic 
 - Such a model is widely used in software development as it is simple to plan and manage.
 - The process is also strictly documented and the processes and outcomes of each stage are clearly predefined.
 
-![waterfall](https://github.com/gul-ahmed/devops/blob/main/waterfall..png)
+![waterfall](https://github.com/gul-ahmed/devops/blob/main/waterfall.png)
 
 **Advantages:**
 
@@ -51,4 +51,74 @@ The Software Development Life Cycle (SDLC) model is a structured and systematic 
 4. It is not suitable for projects that have changeable requirements
 5. Adjusting the scope during the lifecycle may cause problems
 6. High risk and uncertainty amount
+
+## Agile model
+
+- Agile is a modern software development methodology that emphasizes flexibility, collaboration, and customer satisfaction.
+- It is an iterative and incremental approach to software development, promoting the delivery of small, functional pieces of a product in short time frames known as iterations or sprints.
+
+### Agile Methodology Characteristics
+
+**Iterative and Incremental Development:**
+
+- The project is divided into small, manageable iterations, typically lasting 1-4 weeks.
+- At the end of each iteration, a potentially shippable product increment is delivered.
+
+  ![agile](https://github.com/gul-ahmed/devops/blob/main/Agile-Model.webp)
+
+**Flexibility and Adaptability:**
+
+- Agile welcomes changes in requirements, even late in the development process.
+- The project adapts to evolving customer needs and feedback.
+
+**Customer Collaboration:**
+
+- Continuous customer involvement and feedback are crucial throughout the development process.
+- Regular demonstrations and reviews allow customers to provide feedback and make adjustments.
+
+**Cross-functional Teams:**
+
+- Agile teams are typically small, cross-functional, and self-organizing.
+- Team members collaborate closely, breaking down silos between different roles.
+
+**Emphasis on Communication:**
+
+- Constant communication and collaboration are encouraged within the team and with stakeholders.
+- Daily stand-up meetings are common to keep everyone informed about progress and challenges.
+
+**Advantages of Agile:**
+
+**1. Flexibility and Adaptability:**
+ Agile accommodates changes in requirements, allowing for continuous improvement and adaptation to evolving needs.
+
+**2. Customer Satisfaction:**
+ Continuous customer involvement and feedback lead to a product that better aligns with customer expectations.
+
+**3. Early and Incremental Delivery:**
+ Functional increments are delivered in short cycles, providing tangible results early in the development process.
+
+**4. Improved Communication:**
+ Regular team interactions and collaboration enhance communication, reducing misunderstandings and improving project transparency.
+
+**5. Risk Management:**
+ The iterative nature of Agile allows for early identification and mitigation of risks.
+
+**Disadvantages of Agile:**
+
+**1. Lack of Predictability:**
+ The flexibility of Agile can make it challenging to estimate project timelines and costs accurately.
+
+**2. Requires Active Customer Involvement:**
+ Continuous customer involvement is essential, and if customers are not engaged, the project may suffer.
+
+**3. Not Suitable for All Projects:**
+ Agile is most effective for projects with evolving or unclear requirements. For projects with well-defined and stable requirements, a more traditional approach might be more appropriate.
+
+**4. Dependency on Skilled Team Members:**
+ Success in Agile depends on having a skilled and self-organizing team. Without the right team, the benefits may be diminished.
+
+**5. Documentation Challenges:**
+ Agile prioritizes working software over comprehensive documentation, which may be a challenge in environments with strict documentation requirements.
+
+  
 
