@@ -36,8 +36,6 @@ The DevOps Lifecycle divides the SDLC lifecycle into the following stages:
 ![](images/How-DeveOps-Works.png)
 
 
-
-
 | Stage                 | Description                                                                                                                                                                                                                                                   |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Continuous Development** | Involves committing code to version control tools **`(e.g., Git, SVN)`** for version management. Utilizes build tools **`(e.g., Ant, Maven, Gradle)`** to package code into an executable file, ready for testing by Quality Assurance (QA) teams.                                   |
@@ -45,3 +43,13 @@ The DevOps Lifecycle divides the SDLC lifecycle into the following stages:
 | **Continuous Deployment**  | Code is built, the application or environment is containerized, and the result is pushed to the desired server. Key processes include Configuration Management, Virtualization, and Containerization, enabling efficient deployment.                                |
 | **Continuous Testing**     | Involves automated testing of applications pushed by developers. If errors occur, the integration tool sends a message notifying developers. Successful tests trigger a message to the Integration tool, pushing the build to the production server.              |
 | **Continuous Monitoring**   | This stage continuously monitors deployed applications for bugs or crashes. Additionally, it can collect user feedback. The gathered data is sent to developers to make improvements to the application.  |
+
+# Devops Tools
+
+Above discussed Devops Methodology cannot be put into action without it’s corresponding tools. Lets discuss the devops tools with their respective lifecycle stages.
+
+**Continuous Development**
+
+
+
+
