@@ -48,8 +48,34 @@ The DevOps Lifecycle divides the SDLC lifecycle into the following stages:
 
 Above discussed Devops Methodology cannot be put into action without it’s corresponding tools. Lets discuss the devops tools with their respective lifecycle stages.
 
-**Continuous Development**
+![devops-tools](https://github.com/gul-ahmed/devops/blob/0670eae538eb5da0b387978feba2c1fa06993679/images/devops-tools.png)
 
+**1. Continuous Development**
 
+- This phase includes **planning** and **coding** the software's functions. While there are no specific tools for planning, various tools are available for code maintenance.
+- During the planning phase, the project's vision is set, and then in the coding phase, they actually start writing the code.
+- You can write the code in any language, but to keep it organized and work together smoothly, we use tools called Version Control. These tools are part of Continuous Development in DevOps. The most well-known ones include **Git, SVN, Mercurial, CVS, and JIRA.**
 
+**2. Continuous Testing**
 
+- After creating the code, it's not a good idea to release it right away. We should first test it for bugs and make sure it performs well.
+- Using manual testing is not very efficient. Hence we use **Automated testing!**
+- We use tools like **Selenium, TestNG, JUnit, or NUnit** to make our tests run automatically.
+- Automated testing is great because it saves a bunch of time and effort compared to manual testing. In addition, creating reports is a big advantage. It makes it much easier to figure out which test cases didn't work in a group of tests. You can also scheduled these tests to run automatically at planned times. 
+
+**3. Continuous Integration**
+
+- The stage is a critical point in the whole Devops Lifecycle. It deals with integrating the different stages of the devops lifecycle, and is therefore the key in automating the whole Devops Process.
+- This DevOps phase is super smart. It might not seem important in the first release, but as you go on, you'll see how crucial it is.
+- Continuous Integration (CI) is a big deal even in the first release. It's super helpful to connect CI tools with configuration management tools for deployment.
+- Without a doubt, the most well-known CI tool out there is **Jenkins**. Other popular CI tools include **Bamboo** and **Hudson**.
+- CI tools are like conductors that make other DevOps tools work together smoothly. Whether it's tools for Continuous Development, Continuous Testing, Continuous Deployment, or Continuous Monitoring, CI tools can be connected with all of them.
+- When Jenkins is connected with Git or SVN, it can automatically set up tasks like fetching code from shared repositories. It gets that code ready for builds and testing. Jenkins can build these tasks at planned times during the day or whenever new code is pushed to the central repository.
+- When we integrate Jenkins with testing tools like Selenium, we make Continuous Testing happen. First, we build the code using tools like Maven, Ant, or Gradle. Once the code is built, Selenium steps in to automatically run the code. How does it do that? By making a set of test cases and running them one by one. The role of Jenkins/Hudson/Bamboo here would be to schedule/automate “Selenium to automate test case execution”.
+- When integrated with Continuous Deployment tools, Jenkins/Hudson/Bamboo can trigger the deployments, planned by configuration management/containerization tools.
+- And finally, Jenkins/Hudson can be integrated with monitoring tools like Splunk/ ELK/ Nagios/ NewRelic, to continuously monitor the status & performance of the server where the deployments have been made.
+
+**4. Continuous Deployment**
+
+- This (Continuous Deployment) is the phase where the action actually happens.
+- 
