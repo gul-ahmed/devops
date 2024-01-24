@@ -1,1 +1,69 @@
 
+# What is Version Control?
+
+- Version control, also known as source control, is the practice of tracking and managing changes to software code.
+- Version control systems are software tools that help software teams manage changes to source code over time.
+- As development environments have accelerated, version control systems help software teams work faster and smarter.
+- They are especially useful for DevOps teams since they help them to reduce development time and increase successful deployments.
+- Version control software keeps track of every modification to the code in a special kind of database.
+- If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+
+# Before Version Control:
+
+**No Detailed Change Tracking:** Developers had no systematic way to track changes made to code. This lack of visibility into modifications made collaboration difficult and made it challenging to identify the source of bugs or issues.
+
+**Overwriting Issues:** In a collaborative environment, if multiple developers were working on the same file simultaneously, changes could easily conflict. Without a version control system, it was common for one person's changes to overwrite another's, leading to data loss.
+
+**No Historical Record:** There was no comprehensive historical record of a project's evolution. If a mistake was made or a specific version needed to be restored, developers often relied on manual backups or documentation.
+
+**Limited Collaboration:** Collaboration among team members was more challenging. Coordinating the work of multiple developers, especially in distributed teams, required meticulous communication and synchronization efforts.
+
+**Risk of Data Loss:** Since there was no centralized repository or backup mechanism, the risk of losing code due to accidental deletions or hardware failures was significant.
+
+# After Version Control:
+
+**Granular Change Tracking:** Version control systems keep detailed records of changes, including who made the changes, when they were made, and the specific modifications. This provides a comprehensive audit trail for the entire project.
+
+**Conflict Resolution:** Version control systems provide mechanisms for handling concurrent edits and merging changes from multiple contributors. Developers can work on their local copies and later merge their changes into a shared repository, minimizing conflicts.
+
+**Historical Record:** Every version control system maintains a complete history of the project. Developers can easily revert to previous states or review the evolution of the codebase to understand how it has changed over time.
+
+**Efficient Collaboration:** Version control systems facilitate collaboration by allowing multiple developers to work on the same project simultaneously. Branching and merging capabilities make it easier to manage parallel development efforts.
+
+**Backup and Recovery:** The entire history of the project is stored in the version control repository, acting as a reliable backup. This reduces the risk of data loss and provides a safety net in case of accidental changes or file deletions.
+
+**Support for Experimentation:** Developers can create branches to experiment with new features or changes without affecting the main codebase. This encourages innovation and exploration in a controlled environment.
+
+# Types of Version Control System
+
+### Centralized Version Control System
+
+A centralized version control system has a single server that contains all the file versions. This enables multiple clients to simultaneously access files on the server, pull them to their local computer or push them onto the server from their local computer. This way, everyone usually knows what everyone else on the project is doing. Administrators have control over who can do what.
+
+This allows for easy collaboration with other developers or a team.
+
+The biggest issue with this structure is that everything is stored on the centralized server. If something were to happen to that server, nobody can save their versioned changes, pull files or collaborate at all.
+
+The most well-known examples of centralized version control systems is SVN.
+
+
+### Distributed Version Control System
+
+With distributed version control systems, clients don’t just check out the latest snapshot of the files from the server, they fully mirror the repository, including its full history. Thus, everyone collaborating on a project owns a local copy of the whole project, i.e. owns their own local database with their own complete history. 
+
+With this model, if the server becomes unavailable or dies, any of the client repositories can send a copy of the project's version to any other client or back onto the server when it becomes available. It is enough that one client contains a correct copy which can then easily be further distributed.
+
+In Distributed VCS, one does not necessarily rely on a central server to store all the versions of a project’s file. Every developer “clones” a copy of the main repository on their local system. This also copies, all the past versions of the code on the local system too. Therefore, the developer need not be connected to the internet to work on the code.
+
+Git is the most well-known example of distributed version control systems.
+
+# Difference between DVCS and CVCS
+
+| Distributed VCS (DVCS)                                                            | Centralized VCS (CVCS)                   |
+|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| Everything except pushing and pulling can be done without Internet Connection     | Needs a dedicated internet connection for every operation  |
+| Every Developer has full version history on local hard drive                      | Developers just have the working copy and no version history on their local drive     |
+| Committing and retrieving action is faster since data is on local drive           | Committing and retrieving action is slower since it happens on the internet  |
+| Not Good for storing large files which are binary in nature, this would increase the repo size at every commit     | Good for storing large files, since version history is not downloaded    |
+| If a project has a lot of commits, downloading them may take a lot of time        | Not dependent on the number of commits|
+
