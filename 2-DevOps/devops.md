@@ -83,16 +83,17 @@ Above discussed Devops Methodology cannot be put into action without it’s corr
 
   **`1. Configuration Management Tools`**
   - Configuration Management is the act of establishing and maintaining consistency in an applications’ functional requirements and performance. In simpler words, it is the act of releasing deployments to servers, scheduling updates on all servers and most importantly keeping the configurations consistent across all the servers.
-  - For this, we have tools like Ansible, Puppet, Chef, SaltStack and more.
+  - For this, we have tools like **Ansible, Puppet, Chef, SaltStack** and more.
  
   **`2. Containerization Tools`**
   - Containerization tools are other sets of tools that help in maintaining consistency across the environments where the application is developed, tested and deployed. It eliminates any chance of errors/failure in the production environment by packaging and replicating the same dependencies and packages used in the development/testing/staging environment.
-  - The clear winner here is Docker, which was among the first containerization tool ever. Earlier, this act of maintaining consistency in environments was a challenge because VMs and servers were used, and their environments would have to be managed manually to achieve consistency. Docker containers threw this challenge up above and blew it out of the water.
+  - The clear winner here is **Docker**, which was among the first containerization tool ever. Earlier, this act of maintaining consistency in environments was a challenge because VMs and servers were used, and their environments would have to be managed manually to achieve consistency. Docker containers threw this challenge up above and blew it out of the water.
 
 **5. Continuous Monitoring**
 
 - Continuous Monitoring is like keeping an eye on how well your application is doing. Just developing and launching it isn't enough; we need to watch its performance.
 - Monitoring is crucial because sometimes bugs can sneak through testing, and we want to catch and fix them quickly.
-- Splunk, ELK Stack, Nagios, Sensu, NewRelic are some of the popular tools for monitoring. When used in combination with Jenkins, we achieve Continuous Monitoring.
+- The stage continuously monitors the deployed application for bugs or crashes. It can also be setup to collect user feedback. The collected data is then sent to the developers to improve the application.
+- **Splunk, ELK Stack, Nagios, Sensu, NewRelic** are some of the popular tools for monitoring. When used in combination with Jenkins, we achieve Continuous Monitoring.
 - To minimize the consequences of buggy features, monitoring is a big add-on. Buggy features most often tend to cause financial loss. So, all the more reason to perform continuous monitoring.
 - Monitoring tools also report failure/ unfavorable conditions before your clients/ customers get to experience the faulty features. Don’t we all prefer this?
