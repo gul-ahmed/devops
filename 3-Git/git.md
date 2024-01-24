@@ -67,3 +67,7 @@ Git is the most well-known example of distributed version control systems.
 | Not Good for storing large files which are binary in nature, this would increase the repo size at every commit     | Good for storing large files, since version history is not downloaded    |
 | If a project has a lot of commits, downloading them may take a lot of time        | Not dependent on the number of commits|
 
+
+# Introduction to Git
+
+
