@@ -5,7 +5,7 @@
 - It involves a series of steps that aim to produce high-quality software that meets the needs of users or organizations. 
 - The software development life cycle (SDLC) typically includes the following phases:
 
-![sdlc](https://github.com/gul-ahmed/devops/blob/main/sdlc-process.png)
+![sdlc](https://github.com/gul-ahmed/devops/blob/cbd4d2853a4604ec4d4fd00f9c73f2e87a798ed0/images/sdlc-process.png)
 
 
 **Planning:** Defining the scope, objectives, and requirements of the software project. This phase involves determining the goals, budget, and timeline for the project.
@@ -33,7 +33,7 @@ The Software Development Life Cycle (SDLC) model is a structured and systematic 
 - Such a model is widely used in software development as it is simple to plan and manage.
 - The process is also strictly documented and the processes and outcomes of each stage are clearly predefined.
 
-![waterfall](https://github.com/gul-ahmed/devops/blob/main/waterfall.png)
+![waterfall](https://github.com/gul-ahmed/devops/blob/cbd4d2853a4604ec4d4fd00f9c73f2e87a798ed0/images/waterfall.png)
 
 **Advantages:**
 
@@ -64,7 +64,7 @@ The Software Development Life Cycle (SDLC) model is a structured and systematic 
 - The project is divided into small, manageable iterations, typically lasting 1-4 weeks.
 - At the end of each iteration, a potentially shippable product increment is delivered.
 
-  ![agile](https://github.com/gul-ahmed/devops/blob/main/Agile-Model.webp)
+  ![agile](https://github.com/gul-ahmed/devops/blob/cbd4d2853a4604ec4d4fd00f9c73f2e87a798ed0/images/Agile-Model.webp)
 
 **Flexibility and Adaptability:**
 
