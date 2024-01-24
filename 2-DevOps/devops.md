@@ -18,7 +18,7 @@ Devops is a software development methodology which improves the collaboration be
 
 <br>
 
-![devops](images/devops.png)
+![devops](https://github.com/gul-ahmed/devops/blob/38c0c3d5fc7dd7aaf2e4c6285bc814cff87e0a2c/images/devops.png)
 
 
 # How DevOps Works?
