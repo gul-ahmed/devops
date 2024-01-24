@@ -1,6 +1,6 @@
 # Why DevOps?
 
-Although, the software quality was improved using [SDLC](https://github.com/gul-ahmed/devops/blob/main/1_sdlc.md). We still had a lack of efficiency among the development team. 
+Although, the software quality was improved using [SDLC](https://github.com/gul-ahmed/devops/blob/7c4d684edbeb15390a0c24a5e877b4d281a84f2a/1-SDLC/sdlc.md). We still had a lack of efficiency among the development team. 
 
 - A typical software development team consists of Developers and Operations employees. Let us understand their job roles.
 - A developer's job is to develop applications and pass his code to the operations team.
