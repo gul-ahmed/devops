@@ -31,9 +31,9 @@ DevOps teams use tools to automate and accelerate processes, which helps to incr
 
 The DevOps Lifecycle divides the SDLC lifecycle into the following stages:
 
-![do_sdlc](images/do_lifecycle.png)
+![do_sdlc](https://github.com/gul-ahmed/devops/blob/43a7fcd40c464538eb88a1da21e026ce357cdf26/images/do_lifecycle.png)
 
-![](images/How-DeveOps-Works.png)
+![](https://github.com/gul-ahmed/devops/blob/43a7fcd40c464538eb88a1da21e026ce357cdf26/images/How-DeveOps-Works.png)
 
 
 | Stage                 | Description                                                                                                                                                                                                                                                   |
